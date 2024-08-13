@@ -17,7 +17,7 @@ def rotate_2d_matrix(matrix):
             # change top for left
             matrix[i][j] = matrix[n - j - 1][i]
             # change left for bottom
-            matrix[n - j - 1][i]= matrix[n - i - 1][n - j - 1]
+            matrix[n - j - 1][i] = matrix[n - i - 1][n - j - 1]
             # change bottom for right
             matrix[n - i - 1][n - j - 1] = matrix[j][n - i - 1]
             # change right for top
